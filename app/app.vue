@@ -2,12 +2,14 @@
 // Site-wide structured data (LocalBusiness) + base meta come from nuxt.config.
 import { BUSINESS } from '~/config/business'
 
+const siteUrl = (useRuntimeConfig().public.siteUrl as string) || BUSINESS.siteUrl
+
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'ClothingStore',
   name: BUSINESS.legalName,
   alternateName: BUSINESS.brandName,
-  url: BUSINESS.siteUrl,
+  url: siteUrl,
   telephone: `+${BUSINESS.whatsapp}`,
   foundingDate: String(BUSINESS.foundedMerintis),
   address: BUSINESS.locations.map((l) => ({

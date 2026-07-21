@@ -1,6 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import { BUSINESS } from './app/config/business'
 
+// Canonical URL of THIS deployment (used for canonical/og:url/sitemap/JSON-LD).
+// Defaults to the current Vercel preview domain; override in production by
+// setting the env var NUXT_PUBLIC_SITE_URL (e.g. https://bikinbadjoe.com).
+// NOTE: this is the site's deployment URL, distinct from BUSINESS.siteUrl which
+// documents the brand's existing (WordPress) site.
+const SITE_URL = process.env.NUXT_PUBLIC_SITE_URL || 'https://bikinbadjoe.vercel.app'
+
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
@@ -9,7 +16,7 @@ export default defineNuxtConfig({
 
   // Canonical site URL (used by sitemap + nuxt-site-config).
   site: {
-    url: BUSINESS.siteUrl,
+    url: SITE_URL,
     name: BUSINESS.brandName,
   },
 
@@ -45,6 +52,7 @@ export default defineNuxtConfig({
   },
 
   i18n: {
+    baseUrl: SITE_URL, // makes canonical + hreflang absolute
     strategy: 'prefix_except_default',
     defaultLocale: 'id',
     locales: [
@@ -91,7 +99,8 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      siteUrl: BUSINESS.siteUrl,
+      // Overridable at runtime via NUXT_PUBLIC_SITE_URL.
+      siteUrl: SITE_URL,
       whatsapp: BUSINESS.whatsapp,
     },
   },
