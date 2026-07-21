@@ -7,6 +7,15 @@ export default defineNuxtConfig({
 
   modules: ['@nuxtjs/i18n', '@nuxt/image', '@vueuse/nuxt'],
 
+  // Resolve components by filename (BaseButton, HeroSection) regardless of the
+  // subfolder they live in, so nested organization doesn't leak into names.
+  components: [{ path: '~/components', pathPrefix: false }],
+
+  // Auto-import our services layer alongside composables/ and utils/.
+  imports: {
+    dirs: ['services'],
+  },
+
   // Global stylesheets. Component-scoped styles use <style lang="scss"> with
   // design tokens auto-injected via vite.css.preprocessorOptions below.
   css: ['~/assets/scss/main.scss'],

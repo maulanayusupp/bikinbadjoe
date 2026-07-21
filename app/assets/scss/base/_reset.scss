@@ -17,6 +17,7 @@ html {
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: clip; // guard against accidental horizontal scroll on mobile
 }
 
 @media (prefers-reduced-motion: reduce) {
