@@ -1,0 +1,14 @@
+{
+  "name": "BikinBadjoe — Sablon Culture Lab",
+  "short_name": "BikinBadjoe",
+  "description": "Sablon satuan & konveksi custom di Bandung. Tanpa minimum order, gratis jasa desain.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#14100e",
+  "theme_color": "#e5481f",
+  "icons": [
+    { "src": "/favicon-32.png", "sizes": "32x32", "type": "image/png" },
+    { "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
