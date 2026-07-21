@@ -45,4 +45,8 @@ export const ICONS = {
   facebook: ['<path d="M14 8h2V5h-2a3 3 0 0 0-3 3v2H9v3h2v6h3v-6h2.2l.8-3H14V8Z"/>'],
   youtube: ['<rect x="3" y="6" width="18" height="12" rx="3"/><path d="M11 9.5l4 2.5-4 2.5Z"/>'],
   link: ['<path d="M9 12a3 3 0 0 1 3-3h3a3 3 0 0 1 0 6h-1"/>', '<path d="M15 12a3 3 0 0 1-3 3H9a3 3 0 0 1 0-6h1"/>'],
+  bag: ['<path d="M6 8h12l-1 12H7L6 8Z"/>', '<path d="M9 8a3 3 0 0 1 6 0"/>'],
+  trash: ['<path d="M4 7h16M9 7V5h6v2M6 7l1 13h10l1-13"/>'],
+  plus: ['<path d="M12 5v14M5 12h14"/>'],
+  minus: ['<path d="M5 12h14"/>'],
 } as const

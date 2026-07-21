@@ -26,6 +26,14 @@
       "title": "Buat Order Custom",
       "description": "Rancang orderanmu: pilih jenis pakaian, warna, teknik sablon, dan jumlah. Kami susun spesifikasinya dan kirim ke WhatsApp untuk penawaran."
     },
+    "shop": {
+      "title": "Store — Produk Andalan",
+      "description": "Belanja koleksi andalan BikinBadjoe: kaos, long sleeve, oversize, one set. Bahan Cotton Combed 30s, siap sablon custom."
+    },
+    "checkout": {
+      "title": "Checkout",
+      "description": "Selesaikan pesananmu di BikinBadjoe."
+    },
     "privacy": { "title": "Kebijakan Privasi", "description": "Kebijakan privasi CV. Bikin Badjoe Workshop." },
     "terms": { "title": "Syarat & Ketentuan", "description": "Syarat & ketentuan layanan CV. Bikin Badjoe Workshop." },
     "shipping": { "title": "Pengiriman & Pengembalian", "description": "Kebijakan pengiriman, produksi, dan pengembalian pesanan BikinBadjoe." }
@@ -34,6 +42,7 @@
     "home": "Beranda",
     "services": "Layanan",
     "products": "Produk",
+    "shop": "Store",
     "customOrder": "Buat Order",
     "about": "Tentang",
     "contact": "Kontak",
@@ -307,6 +316,76 @@
     "reset": "Reset",
     "incomplete": "Pilih minimal jenis pakaian & teknik sablon dulu.",
     "waIntro": "Halo BikinBadjoe! Saya mau order custom dengan spesifikasi berikut:"
+  },
+  "store": {
+    "kicker": "Store",
+    "title": "Produk Andalan",
+    "subtitle": "Koleksi favorit BikinBadjoe — bahan Cotton Combed 30s, siap kamu sablon custom.",
+    "priceDisclaimer": "Harga yang tampil di sini masih contoh/ilustrasi (dummy) untuk demo toko. Harga resmi menyusul.",
+    "addToCart": "Tambah ke Keranjang",
+    "added": "Ditambahkan",
+    "from": "Mulai",
+    "categories": {
+      "all": "Semua",
+      "tees": "Kaos",
+      "longsleeve": "Long Sleeve",
+      "oversize": "Oversize",
+      "oneset": "One Set",
+      "series": "Series"
+    },
+    "badges": { "new": "Baru", "best": "Terlaris", "sale": "Promo" },
+    "products": {
+      "graphic-tee": { "name": "Graphic Tee \"Back To Back\"", "desc": "Kaos grafis statement, sablon full color." },
+      "tee-black": { "name": "Basic Tee Hitam", "desc": "Kaos basic hitam, potongan pas badan." },
+      "essential-black": { "name": "Essential Tee Hitam", "desc": "Esensial harian, adem & nyaman." },
+      "tee-blue": { "name": "Basic Tee Blue Baby", "desc": "Warna lembut, cocok untuk daily." },
+      "misty-tee": { "name": "Misty Tee Hitam", "desc": "Tekstur misty, tampilan premium." },
+      "oversize-black": { "name": "Oversize Tee Hitam", "desc": "Potongan longgar, drop shoulder." },
+      "solid-ls-black": { "name": "Solid Long Sleeve Hitam", "desc": "Lengan panjang solid, layering andalan." },
+      "solid-ls-azalea": { "name": "Solid Long Sleeve Azalea", "desc": "Lengan panjang warna azalea." },
+      "solid-ls-blue": { "name": "Solid Long Sleeve Biru", "desc": "Lengan panjang biru baby." },
+      "misty-ls": { "name": "Misty Long Sleeve Hitam", "desc": "Long sleeve tekstur misty." },
+      "azalea-series": { "name": "Azalea Series Tee", "desc": "Seri warna azalea yang lembut." },
+      "oneset-black": { "name": "One Set Hitam", "desc": "Atasan & bawahan serasi, anti ribet." }
+    }
+  },
+  "cart": {
+    "title": "Keranjang",
+    "empty": "Keranjang masih kosong.",
+    "startShopping": "Mulai Belanja",
+    "subtotal": "Subtotal",
+    "checkout": "Checkout",
+    "remove": "Hapus",
+    "clear": "Kosongkan",
+    "qty": "Jumlah",
+    "close": "Tutup",
+    "itemCount": "item"
+  },
+  "checkout": {
+    "kicker": "Checkout",
+    "title": "Selesaikan pesanan",
+    "empty": "Belum ada produk untuk di-checkout.",
+    "backToShop": "Kembali ke Store",
+    "summary": "Ringkasan Pesanan",
+    "total": "Total",
+    "form": {
+      "title": "Detail Pengiriman",
+      "name": "Nama Lengkap",
+      "namePlaceholder": "Nama penerima",
+      "phone": "No. WhatsApp",
+      "phonePlaceholder": "08xx",
+      "address": "Alamat",
+      "addressPlaceholder": "Alamat lengkap pengiriman",
+      "note": "Catatan (opsional)",
+      "notePlaceholder": "Catatan untuk pesanan"
+    },
+    "place": "Buat Pesanan",
+    "placing": "Memproses...",
+    "successTitle": "Pesanan diterima!",
+    "successBody": "Ini pesanan demo. Untuk memproses sungguhan, tim kami akan lanjutkan via WhatsApp.",
+    "continueWa": "Lanjut via WhatsApp",
+    "disclaimer": "Demo checkout — belum ada pembayaran sungguhan. Harga bersifat contoh.",
+    "waIntro": "Halo BikinBadjoe! Saya mau checkout pesanan berikut:"
   },
   "notFound": {
     "title": "Halaman tidak ditemukan",

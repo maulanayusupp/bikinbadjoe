@@ -31,15 +31,18 @@ Legend: `[ ]` todo · `[~]` in progress · `[x]` done
 
 - [x] Custom-order configurator (`/order`): garment → color → print type(s) →
       quantity → notes → assembles a spec and hands off to WhatsApp for a quote.
-      NO invented prices (evidence rule); only verified facts shown (AYCP Rp20k,
-      sablon from Rp5k). Data in `app/services/commerce.service.ts`.
-- [ ] **Get the official price list from the business**, then add a pricing/
-      estimate step to the configurator + real catalogue prices (blocked: no
-      verified prices available — do not fabricate)
-- [ ] Design-file upload in the configurator (store to object storage)
-- [ ] Product catalogue with categories (blank tees, series, one-set) + filters
-- [ ] Product detail pages: material, size chart, color swatches (150+ colors)
-- [ ] Cart + checkout; integrate a payment gateway (e.g. local ID gateway)
+- [x] Store (`/shop`): 12 flagship demo products with category filter + badges.
+      Data in `commerce.service.ts` (`STORE_PRODUCTS`). **Prices are DUMMY** and
+      labelled as such in the UI (evidence rule).
+- [x] Demo cart (`useCart`, localStorage-persisted) + slide-over CartDrawer +
+      `/checkout` page (dummy — no payment; confirms + WhatsApp hand-off).
+- [ ] **Get the official price list from the business**, then replace dummy
+      prices + add real catalogue pricing (blocked: no verified prices — do not
+      fabricate)
+- [ ] Real checkout: payment gateway (local ID gateway), order persistence,
+      stock/inventory, order confirmation emails
+- [ ] Product detail pages (`/shop/[slug]`): size chart, color swatches, gallery
+- [ ] Design-file upload in the configurator/checkout (object storage)
 - [ ] Order tracking + account area
 - [ ] Localized currency/format (IDR) and shipping-cost calculation
 - [ ] Inventory/stock backend integration

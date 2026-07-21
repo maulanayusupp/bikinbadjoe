@@ -5,6 +5,7 @@ const { business, socials, locations, whatsappLink } = useBusiness()
 
 const explore = computed(() => [
   { to: localePath('/'), label: t('nav.home') },
+  { to: localePath('/shop'), label: t('nav.shop') },
   { to: localePath('/services'), label: t('nav.services') },
   { to: localePath('/products'), label: t('nav.products') },
   { to: localePath('/order'), label: t('nav.customOrder') },

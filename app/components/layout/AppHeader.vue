@@ -2,11 +2,12 @@
 const { t } = useI18n()
 const localePath = useLocalePath()
 const { whatsappLink } = useBusiness()
+const { count, isOpen } = useCart()
 
 const links = computed(() => [
   { to: localePath('/'), label: t('nav.home') },
+  { to: localePath('/shop'), label: t('nav.shop') },
   { to: localePath('/services'), label: t('nav.services') },
-  { to: localePath('/products'), label: t('nav.products') },
   { to: localePath('/order'), label: t('nav.customOrder') },
   { to: localePath('/about'), label: t('nav.about') },
   { to: localePath('/contact'), label: t('nav.contact') },
@@ -51,6 +52,10 @@ const orderMsg = 'Halo BikinBadjoe! Saya mau tanya soal order sablon.'
 
       <div class="header__actions">
         <LangSwitcher class="header__lang" />
+        <button class="header__cart" :aria-label="t('cart.title')" @click="isOpen = true">
+          <BaseIcon name="bag" :size="22" />
+          <span v-if="count" class="header__cart-badge">{{ count }}</span>
+        </button>
         <BaseButton
           class="header__cta"
           :href="whatsappLink(orderMsg)"
@@ -179,6 +184,45 @@ const orderMsg = 'Halo BikinBadjoe! Saya mau tanya soal order sablon.'
     @include up(md) {
       display: inline-flex;
     }
+  }
+
+  &__cart {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 1px solid $color-line;
+    color: $text-base;
+    transition:
+      border-color $transition-base,
+      color $transition-base;
+
+    &:hover {
+      border-color: $color-cream;
+      color: $color-primary-400;
+    }
+  }
+
+  &__cart-badge {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    min-width: 20px;
+    height: 20px;
+    padding: 0 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: $color-primary;
+    color: $color-white;
+    font-family: $font-heading;
+    font-weight: $fw-bold;
+    font-size: 11px;
+    border-radius: $radius-pill;
+    border: 2px solid $color-ink;
   }
 
   &__burger {

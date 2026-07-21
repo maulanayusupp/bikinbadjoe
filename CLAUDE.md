@@ -72,11 +72,11 @@ app/
     ui/                   # BaseButton, BaseIcon, SectionHeader, PageHero, LegalDoc
     layout/               # AppHeader, AppFooter, MarqueeBar, LangSwitcher
     sections/             # Hero, Stats, Services, Aycp, Why, Products, Gallery, Testimonials, Locations, Cta
-  composables/            # usePageSeo, useBusiness
+  composables/            # usePageSeo, useBusiness, useCart (demo cart, localStorage-persisted)
   services/               # content.service.ts, commerce.service.ts (structural data -> i18n keys)
-  utils/                  # whatsapp.ts, icons.ts
+  utils/                  # whatsapp.ts, icons.ts, format.ts (formatIDR)
   plugins/reveal.ts       # v-reveal scroll-reveal directive
-  pages/                  # index, services, products, order, about, contact, privacy, terms, shipping
+  pages/                  # index, shop, checkout, services, products, order, about, contact, privacy, terms, shipping
 server/api/               # contact.post.ts (form endpoint; deliverMessage = inbox hook)
 i18n/locales/             # id.json (default), en.json
 public/                   # favicons, og-image, images/ (brand, gallery, process)

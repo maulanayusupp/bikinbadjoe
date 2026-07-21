@@ -13,6 +13,8 @@ const { whatsappLink } = useBusiness()
     </main>
     <AppFooter />
 
+    <CartDrawer />
+
     <!-- Persistent floating WhatsApp CTA -->
     <a
       :href="whatsappLink('Halo BikinBadjoe! Saya mau tanya soal order.')"

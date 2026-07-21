@@ -26,6 +26,14 @@
       "title": "Build a Custom Order",
       "description": "Design your order: pick the garment, color, print technique, and quantity. We assemble the spec and send it to WhatsApp for a quote."
     },
+    "shop": {
+      "title": "Store — Flagship Products",
+      "description": "Shop BikinBadjoe's flagship collection: tees, long sleeves, oversize, one set. Cotton Combed 30s, ready for custom printing."
+    },
+    "checkout": {
+      "title": "Checkout",
+      "description": "Complete your BikinBadjoe order."
+    },
     "privacy": { "title": "Privacy Policy", "description": "Privacy policy of CV. Bikin Badjoe Workshop." },
     "terms": { "title": "Terms & Conditions", "description": "Terms & conditions of CV. Bikin Badjoe Workshop." },
     "shipping": { "title": "Shipping & Returns", "description": "Shipping, production, and returns policy for BikinBadjoe orders." }
@@ -34,6 +42,7 @@
     "home": "Home",
     "services": "Services",
     "products": "Products",
+    "shop": "Store",
     "customOrder": "Build Order",
     "about": "About",
     "contact": "Contact",
@@ -307,6 +316,76 @@
     "reset": "Reset",
     "incomplete": "Pick at least a garment & a print technique first.",
     "waIntro": "Hi BikinBadjoe! I'd like a custom order with the following spec:"
+  },
+  "store": {
+    "kicker": "Store",
+    "title": "Flagship Products",
+    "subtitle": "BikinBadjoe favorites — Cotton Combed 30s, ready for your custom print.",
+    "priceDisclaimer": "Prices shown here are placeholder/illustrative (dummy) for the store demo. Official pricing to follow.",
+    "addToCart": "Add to Cart",
+    "added": "Added",
+    "from": "From",
+    "categories": {
+      "all": "All",
+      "tees": "Tees",
+      "longsleeve": "Long Sleeve",
+      "oversize": "Oversize",
+      "oneset": "One Set",
+      "series": "Series"
+    },
+    "badges": { "new": "New", "best": "Best Seller", "sale": "Sale" },
+    "products": {
+      "graphic-tee": { "name": "Graphic Tee \"Back To Back\"", "desc": "Statement graphic tee, full-color print." },
+      "tee-black": { "name": "Basic Tee Black", "desc": "Black basic tee, proper fit." },
+      "essential-black": { "name": "Essential Tee Black", "desc": "Daily essential, cool & comfy." },
+      "tee-blue": { "name": "Basic Tee Blue Baby", "desc": "Soft color, perfect for daily wear." },
+      "misty-tee": { "name": "Misty Tee Black", "desc": "Misty texture, premium look." },
+      "oversize-black": { "name": "Oversize Tee Black", "desc": "Loose cut, drop shoulder." },
+      "solid-ls-black": { "name": "Solid Long Sleeve Black", "desc": "Solid long sleeve, go-to layering." },
+      "solid-ls-azalea": { "name": "Solid Long Sleeve Azalea", "desc": "Long sleeve in azalea." },
+      "solid-ls-blue": { "name": "Solid Long Sleeve Blue", "desc": "Long sleeve in baby blue." },
+      "misty-ls": { "name": "Misty Long Sleeve Black", "desc": "Misty-texture long sleeve." },
+      "azalea-series": { "name": "Azalea Series Tee", "desc": "Soft azalea color series." },
+      "oneset-black": { "name": "One Set Black", "desc": "Coordinated top & bottom, hassle-free." }
+    }
+  },
+  "cart": {
+    "title": "Cart",
+    "empty": "Your cart is empty.",
+    "startShopping": "Start Shopping",
+    "subtotal": "Subtotal",
+    "checkout": "Checkout",
+    "remove": "Remove",
+    "clear": "Clear",
+    "qty": "Qty",
+    "close": "Close",
+    "itemCount": "items"
+  },
+  "checkout": {
+    "kicker": "Checkout",
+    "title": "Complete your order",
+    "empty": "Nothing to check out yet.",
+    "backToShop": "Back to Store",
+    "summary": "Order Summary",
+    "total": "Total",
+    "form": {
+      "title": "Delivery Details",
+      "name": "Full Name",
+      "namePlaceholder": "Recipient name",
+      "phone": "WhatsApp Number",
+      "phonePlaceholder": "08xx",
+      "address": "Address",
+      "addressPlaceholder": "Full delivery address",
+      "note": "Note (optional)",
+      "notePlaceholder": "Note for your order"
+    },
+    "place": "Place Order",
+    "placing": "Processing...",
+    "successTitle": "Order received!",
+    "successBody": "This is a demo order. To process it for real, our team will continue via WhatsApp.",
+    "continueWa": "Continue via WhatsApp",
+    "disclaimer": "Demo checkout — no real payment. Prices are illustrative.",
+    "waIntro": "Hi BikinBadjoe! I'd like to check out the following order:"
   },
   "notFound": {
     "title": "Page not found",

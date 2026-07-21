@@ -32,6 +32,54 @@ export const PRICE_FACTS = {
   sablonFrom: 5000, // single-piece printing "mulai dari" Rp5.000
 } as const
 
+export interface StoreProduct {
+  id: string
+  i18n: string // store.products.<id>.{name,desc}
+  category: string // matches a StoreCategory id
+  image: string
+  /**
+   * DUMMY / illustrative price in IDR. NOT an official BikinBadjoe price — the
+   * business has not published a price list. Surfaced with a disclaimer in the
+   * UI. Replace with real prices once provided (see TODO.md).
+   */
+  price: number
+  badge?: 'new' | 'best' | 'sale'
+  oldPrice?: number
+}
+
+export interface StoreCategory {
+  id: string
+  i18n: string // store.categories.<id>
+}
+
+export const STORE_CATEGORIES: StoreCategory[] = [
+  { id: 'all', i18n: 'store.categories.all' },
+  { id: 'tees', i18n: 'store.categories.tees' },
+  { id: 'longsleeve', i18n: 'store.categories.longsleeve' },
+  { id: 'oversize', i18n: 'store.categories.oversize' },
+  { id: 'oneset', i18n: 'store.categories.oneset' },
+  { id: 'series', i18n: 'store.categories.series' },
+]
+
+/**
+ * 12 flagship demo products. Images are real BikinBadjoe catalogue photos;
+ * PRICES ARE DUMMY (see StoreProduct.price note + UI disclaimer).
+ */
+export const STORE_PRODUCTS: StoreProduct[] = [
+  { id: 'graphic-tee', i18n: 'store.products.graphic-tee', category: 'tees', image: '/images/products/graphic-tee.jpg', price: 99000, badge: 'best' },
+  { id: 'tee-black', i18n: 'store.products.tee-black', category: 'tees', image: '/images/products/tee-black1.jpg', price: 79000 },
+  { id: 'essential-black', i18n: 'store.products.essential-black', category: 'tees', image: '/images/products/tee-black8.jpg', price: 85000 },
+  { id: 'tee-blue', i18n: 'store.products.tee-blue', category: 'tees', image: '/images/products/tee-blue.jpg', price: 79000 },
+  { id: 'misty-tee', i18n: 'store.products.misty-tee', category: 'tees', image: '/images/products/misty-short-black.jpg', price: 95000, badge: 'new' },
+  { id: 'oversize-black', i18n: 'store.products.oversize-black', category: 'oversize', image: '/images/products/oversize-black.jpg', price: 119000, badge: 'best' },
+  { id: 'solid-ls-black', i18n: 'store.products.solid-ls-black', category: 'longsleeve', image: '/images/products/basic-solid-black.jpg', price: 139000 },
+  { id: 'solid-ls-azalea', i18n: 'store.products.solid-ls-azalea', category: 'longsleeve', image: '/images/products/basic-solid-azalea.jpg', price: 139000 },
+  { id: 'solid-ls-blue', i18n: 'store.products.solid-ls-blue', category: 'longsleeve', image: '/images/products/basic-solid-blue.jpg', price: 139000 },
+  { id: 'misty-ls', i18n: 'store.products.misty-ls', category: 'longsleeve', image: '/images/products/misty-long-black.jpg', price: 149000, badge: 'sale', oldPrice: 169000 },
+  { id: 'azalea-series', i18n: 'store.products.azalea-series', category: 'series', image: '/images/products/azalea.jpg', price: 99000 },
+  { id: 'oneset-black', i18n: 'store.products.oneset-black', category: 'oneset', image: '/images/products/oneset-black.jpg', price: 199000, badge: 'best' },
+]
+
 export function useCommerceService() {
   const garments: Garment[] = [
     { id: 'tee', i18n: 'order.garments.tee', icon: 'shirt', image: '/images/gallery/kaos4.jpg' },
