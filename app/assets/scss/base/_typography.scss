@@ -1,3 +1,5 @@
+@use '../abstracts' as *;
+
 // Base typography.
 body {
   font-family: $font-body;
