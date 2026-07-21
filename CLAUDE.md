@@ -47,6 +47,10 @@ apparel manufacturer in Bandung, Indonesia. Built with **Nuxt 4**.
 6. **Evidence over assumption.** Only put verified facts on the site. Business
    facts are sourced from bikinbadjoe.com and the official Instagram
    (@bikinbadjoe / @bikinbadjoe.workshop). If a fact is uncertain, leave it out.
+   **Pricing:** no official price list exists yet — do NOT fabricate prices. Only
+   the verified facts (AYCP Rp20k, single-piece printing from Rp5k) may be shown;
+   see `PRICE_FACTS` in `commerce.service.ts`. The order configurator collects a
+   spec and hands off to WhatsApp for a quote instead of showing invented totals.
 7. **Keep docs in sync.** On any feature/content change, update this
    `CLAUDE.md`, the compliance pages (`privacy`/`terms`/`shipping`) if relevant,
    and the translations. Add planned work to `TODO.md`.
@@ -69,10 +73,10 @@ app/
     layout/               # AppHeader, AppFooter, MarqueeBar, LangSwitcher
     sections/             # Hero, Stats, Services, Aycp, Why, Products, Gallery, Testimonials, Locations, Cta
   composables/            # usePageSeo, useBusiness
-  services/               # content.service.ts (structural data -> i18n keys)
+  services/               # content.service.ts, commerce.service.ts (structural data -> i18n keys)
   utils/                  # whatsapp.ts, icons.ts
   plugins/reveal.ts       # v-reveal scroll-reveal directive
-  pages/                  # index, services, products, about, contact, privacy, terms, shipping
+  pages/                  # index, services, products, order, about, contact, privacy, terms, shipping
 server/api/               # contact.post.ts (form endpoint; deliverMessage = inbox hook)
 i18n/locales/             # id.json (default), en.json
 public/                   # favicons, og-image, images/ (brand, gallery, process)

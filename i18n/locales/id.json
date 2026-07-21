@@ -22,6 +22,10 @@
       "title": "Kontak & Lokasi",
       "description": "Kunjungi BikinBadjoe di Bandung & Cimahi, atau pesan langsung lewat WhatsApp. Buka setiap hari 08.00–21.00."
     },
+    "order": {
+      "title": "Buat Order Custom",
+      "description": "Rancang orderanmu: pilih jenis pakaian, warna, teknik sablon, dan jumlah. Kami susun spesifikasinya dan kirim ke WhatsApp untuk penawaran."
+    },
     "privacy": { "title": "Kebijakan Privasi", "description": "Kebijakan privasi CV. Bikin Badjoe Workshop." },
     "terms": { "title": "Syarat & Ketentuan", "description": "Syarat & ketentuan layanan CV. Bikin Badjoe Workshop." },
     "shipping": { "title": "Pengiriman & Pengembalian", "description": "Kebijakan pengiriman, produksi, dan pengembalian pesanan BikinBadjoe." }
@@ -30,6 +34,7 @@
     "home": "Beranda",
     "services": "Layanan",
     "products": "Produk",
+    "customOrder": "Buat Order",
     "about": "Tentang",
     "contact": "Kontak",
     "order": "Pesan Sekarang"
@@ -250,6 +255,58 @@
         "defects": { "title": "Cacat Produksi", "body": "Jika ada cacat produksi, laporkan dalam 2x24 jam sejak pesanan diterima beserta bukti foto untuk kami tindak lanjuti." }
       }
     }
+  },
+  "order": {
+    "kicker": "Konfigurator Order",
+    "title": "Rancang badjoe-mu",
+    "subtitle": "Pilih spesifikasinya langkah demi langkah. Setelah selesai, kami kirim ringkasannya ke WhatsApp untuk penawaran harga.",
+    "priceNote": "Harga akhir menyesuaikan spesifikasi & jumlah. Fakta harga: sablon satuan mulai Rp5.000 · All You Can Print Rp20.000. Gratis jasa desain.",
+    "step": "Langkah",
+    "steps": {
+      "garment": "Jenis Pakaian",
+      "color": "Warna",
+      "print": "Teknik Sablon",
+      "quantity": "Jumlah",
+      "notes": "Catatan"
+    },
+    "garments": {
+      "tee": { "name": "Kaos Reguler", "desc": "Cotton Combed 30s, potongan pas badan." },
+      "oversize": { "name": "Kaos Oversize", "desc": "Potongan longgar & drop shoulder." },
+      "polo": { "name": "Polo Shirt", "desc": "Berkerah, rapi untuk kerja & komunitas." },
+      "hoodie": { "name": "Hoodie", "desc": "Hangat & nyaman, cocok segala cuaca." },
+      "oneset": { "name": "One Set", "desc": "Atasan & bawahan serasi." },
+      "kids": { "name": "Kids Series", "desc": "Bahan lembut untuk anak." }
+    },
+    "colors": {
+      "white": "Putih",
+      "black": "Hitam",
+      "navy": "Navy",
+      "maroon": "Maroon",
+      "army": "Army",
+      "mustard": "Mustard",
+      "cream": "Cream",
+      "red": "Merah",
+      "royal": "Biru Royal",
+      "pink": "Pink"
+    },
+    "colorNote": "Tersedia 150+ pilihan warna — ini contoh umum. Warna final dikonfirmasi saat order.",
+    "printNote": "Bisa pilih lebih dari satu teknik.",
+    "qtyLabel": "Perkiraan jumlah",
+    "notesLabel": "Catatan tambahan (opsional)",
+    "notesPlaceholder": "Mis. ukuran, deadline, punya desain sendiri, dll.",
+    "summaryTitle": "Ringkasan Order",
+    "summaryEmpty": "Pilihanmu akan muncul di sini.",
+    "fields": {
+      "garment": "Pakaian",
+      "color": "Warna",
+      "print": "Sablon",
+      "quantity": "Jumlah",
+      "notes": "Catatan"
+    },
+    "send": "Kirim ke WhatsApp",
+    "reset": "Reset",
+    "incomplete": "Pilih minimal jenis pakaian & teknik sablon dulu.",
+    "waIntro": "Halo BikinBadjoe! Saya mau order custom dengan spesifikasi berikut:"
   },
   "notFound": {
     "title": "Halaman tidak ditemukan",

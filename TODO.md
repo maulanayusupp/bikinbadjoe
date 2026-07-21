@@ -27,12 +27,18 @@ Legend: `[ ]` todo · `[~]` in progress · `[x]` done
       publish until confirmed with the business
 - [ ] Confirm secondary phone (+62 877-2459-2986) before publishing
 
-## E-commerce (future — make it as attractive as possible)
+## E-commerce
 
+- [x] Custom-order configurator (`/order`): garment → color → print type(s) →
+      quantity → notes → assembles a spec and hands off to WhatsApp for a quote.
+      NO invented prices (evidence rule); only verified facts shown (AYCP Rp20k,
+      sablon from Rp5k). Data in `app/services/commerce.service.ts`.
+- [ ] **Get the official price list from the business**, then add a pricing/
+      estimate step to the configurator + real catalogue prices (blocked: no
+      verified prices available — do not fabricate)
+- [ ] Design-file upload in the configurator (store to object storage)
 - [ ] Product catalogue with categories (blank tees, series, one-set) + filters
 - [ ] Product detail pages: material, size chart, color swatches (150+ colors)
-- [ ] Custom-order configurator: choose garment → color → print type → upload
-      design → live price estimate (AYCP-style flow online)
 - [ ] Cart + checkout; integrate a payment gateway (e.g. local ID gateway)
 - [ ] Order tracking + account area
 - [ ] Localized currency/format (IDR) and shipping-cost calculation

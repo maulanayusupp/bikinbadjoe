@@ -22,6 +22,10 @@
       "title": "Contact & Locations",
       "description": "Visit BikinBadjoe in Bandung & Cimahi, or order directly via WhatsApp. Open every day 08.00–21.00."
     },
+    "order": {
+      "title": "Build a Custom Order",
+      "description": "Design your order: pick the garment, color, print technique, and quantity. We assemble the spec and send it to WhatsApp for a quote."
+    },
     "privacy": { "title": "Privacy Policy", "description": "Privacy policy of CV. Bikin Badjoe Workshop." },
     "terms": { "title": "Terms & Conditions", "description": "Terms & conditions of CV. Bikin Badjoe Workshop." },
     "shipping": { "title": "Shipping & Returns", "description": "Shipping, production, and returns policy for BikinBadjoe orders." }
@@ -30,6 +34,7 @@
     "home": "Home",
     "services": "Services",
     "products": "Products",
+    "customOrder": "Build Order",
     "about": "About",
     "contact": "Contact",
     "order": "Order Now"
@@ -250,6 +255,58 @@
         "defects": { "title": "Production Defects", "body": "If there is a production defect, report it within 2x24 hours of receiving the order with photo evidence so we can follow up." }
       }
     }
+  },
+  "order": {
+    "kicker": "Order Configurator",
+    "title": "Design your tee",
+    "subtitle": "Pick your spec step by step. When you're done, we send the summary to WhatsApp for a price quote.",
+    "priceNote": "Final price depends on spec & quantity. Verified price facts: single-piece printing from Rp5,000 · All You Can Print Rp20,000. Free design service.",
+    "step": "Step",
+    "steps": {
+      "garment": "Garment",
+      "color": "Color",
+      "print": "Print Technique",
+      "quantity": "Quantity",
+      "notes": "Notes"
+    },
+    "garments": {
+      "tee": { "name": "Regular Tee", "desc": "Cotton Combed 30s, proper fit." },
+      "oversize": { "name": "Oversize Tee", "desc": "Loose cut with drop shoulders." },
+      "polo": { "name": "Polo Shirt", "desc": "Collared, tidy for work & communities." },
+      "hoodie": { "name": "Hoodie", "desc": "Warm & comfy for any weather." },
+      "oneset": { "name": "One Set", "desc": "Coordinated top & bottom." },
+      "kids": { "name": "Kids Series", "desc": "Soft fabric for kids." }
+    },
+    "colors": {
+      "white": "White",
+      "black": "Black",
+      "navy": "Navy",
+      "maroon": "Maroon",
+      "army": "Army",
+      "mustard": "Mustard",
+      "cream": "Cream",
+      "red": "Red",
+      "royal": "Royal Blue",
+      "pink": "Pink"
+    },
+    "colorNote": "150+ colors available — these are common examples. Final color confirmed at order time.",
+    "printNote": "You can pick more than one technique.",
+    "qtyLabel": "Estimated quantity",
+    "notesLabel": "Additional notes (optional)",
+    "notesPlaceholder": "e.g. sizes, deadline, own design, etc.",
+    "summaryTitle": "Order Summary",
+    "summaryEmpty": "Your selections will appear here.",
+    "fields": {
+      "garment": "Garment",
+      "color": "Color",
+      "print": "Print",
+      "quantity": "Quantity",
+      "notes": "Notes"
+    },
+    "send": "Send to WhatsApp",
+    "reset": "Reset",
+    "incomplete": "Pick at least a garment & a print technique first.",
+    "waIntro": "Hi BikinBadjoe! I'd like a custom order with the following spec:"
   },
   "notFound": {
     "title": "Page not found",

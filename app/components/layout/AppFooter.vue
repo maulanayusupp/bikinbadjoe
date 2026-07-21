@@ -7,6 +7,7 @@ const explore = computed(() => [
   { to: localePath('/'), label: t('nav.home') },
   { to: localePath('/services'), label: t('nav.services') },
   { to: localePath('/products'), label: t('nav.products') },
+  { to: localePath('/order'), label: t('nav.customOrder') },
   { to: localePath('/about'), label: t('nav.about') },
   { to: localePath('/contact'), label: t('nav.contact') },
 ])
