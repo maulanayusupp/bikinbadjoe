@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "defaultTitle": "Sablon Satuan & Konveksi Custom Bandung",
+    "defaultDescription": "BikinBadjoe — Sablon Culture Lab di Bandung. Sablon satuan tanpa minimum order, gratis jasa desain, konveksi sendiri. Digital, plastisol, puff, glow in the dark & lebih banyak lagi.",
+    "home": {
+      "title": "Sablon Satuan Tanpa Minimum Order",
+      "description": "Custom kaos & sablon satuan di Bandung tanpa minimum order, gratis jasa desain, langsung jadi. 150+ warna kaos, konveksi sendiri sejak 2019."
+    },
+    "services": {
+      "title": "Layanan Sablon & Konveksi",
+      "description": "Sablon digital (DTF), plastisol, puff/timbul, glow in the dark, reflektif rainbow, foil, gliter, flocking, bordir, dan konveksi custom — semua bisa satuan."
+    },
+    "products": {
+      "title": "Produk & Katalog",
+      "description": "Kaos polos 150+ warna, Family Series, Kids Series, One Set, Raglan Oslo, dan Badjoe Basic — semua bahan Cotton Combed 30s."
+    },
+    "about": {
+      "title": "Tentang Kami",
+      "description": "CV. Bikin Badjoe Workshop — berpengalaman sejak 2017 di bidang konveksi dan sablon custom, dengan konveksi sendiri di Bandung."
+    },
+    "contact": {
+      "title": "Kontak & Lokasi",
+      "description": "Kunjungi BikinBadjoe di Bandung & Cimahi, atau pesan langsung lewat WhatsApp. Buka setiap hari 08.00–21.00."
+    },
+    "privacy": { "title": "Kebijakan Privasi", "description": "Kebijakan privasi CV. Bikin Badjoe Workshop." },
+    "terms": { "title": "Syarat & Ketentuan", "description": "Syarat & ketentuan layanan CV. Bikin Badjoe Workshop." },
+    "shipping": { "title": "Pengiriman & Pengembalian", "description": "Kebijakan pengiriman, produksi, dan pengembalian pesanan BikinBadjoe." }
+  },
+  "nav": {
+    "home": "Beranda",
+    "services": "Layanan",
+    "products": "Produk",
+    "about": "Tentang",
+    "contact": "Kontak",
+    "order": "Pesan Sekarang"
+  },
+  "common": {
+    "orderWhatsapp": "Pesan via WhatsApp",
+    "consult": "Konsultasi Gratis",
+    "viewAll": "Lihat Semua",
+    "learnMore": "Selengkapnya",
+    "getDirections": "Lihat di Peta",
+    "since": "Sejak",
+    "openEveryday": "Buka setiap hari",
+    "readMore": "Baca selengkapnya",
+    "backHome": "Kembali ke Beranda"
+  },
+  "marquee": [
+    "Sablon Satuan",
+    "Tanpa Minimum Order",
+    "Gratis Jasa Desain",
+    "Konveksi Sendiri",
+    "Proses Cepat, Bisa Ditunggu",
+    "150+ Warna Kaos"
+  ],
+  "hero": {
+    "kicker": "Sablon Culture Lab · Bandung",
+    "titleLine1": "Bikin",
+    "titleLine2": "Badjoe",
+    "titleAccent": "Sesukamu",
+    "subtitle": "Sablon custom satuan tanpa minimum order, tanpa ribet, dan bebas berekspresi. Cukup bawa idenya — kami yang eksekusi.",
+    "ctaPrimary": "Pesan via WhatsApp",
+    "ctaSecondary": "Lihat Layanan",
+    "badge1": "Tanpa Min. Order",
+    "badge2": "Gratis Jasa Desain",
+    "badge3": "Langsung Jadi"
+  },
+  "stats": {
+    "followers": { "value": "116K+", "label": "Pengikut Instagram" },
+    "colors": { "value": "150+", "label": "Pilihan Warna Kaos" },
+    "since": { "value": "2017", "label": "Berpengalaman Sejak" },
+    "everyday": { "value": "08–21", "label": "Buka Setiap Hari" }
+  },
+  "services": {
+    "kicker": "Apa yang bisa kami cetak",
+    "title": "Semua jenis sablon, bisa satuan",
+    "subtitle": "Dari sablon harian sampai efek spesial — semua bisa dipesan satuan tanpa minimum order.",
+    "items": {
+      "digital": { "name": "Sablon Digital (DTF)", "desc": "Detail raster tajam, warna penuh, cocok untuk desain kompleks. Bisa satuan." },
+      "plastisol": { "name": "Sablon Plastisol", "desc": "Sablon manual dengan hasil solid, tebal, dan tahan lama." },
+      "puff": { "name": "Sablon Puff / Timbul", "desc": "Efek tekstur timbul 3D yang terasa saat disentuh." },
+      "glow": { "name": "Glow in the Dark", "desc": "Menyala dalam gelap — desain yang hidup di malam hari." },
+      "reflective": { "name": "Reflektif Rainbow", "desc": "Memantulkan cahaya jadi spektrum warna-warni saat terkena sinar." },
+      "foil": { "name": "Foil / Aqua Glossy", "desc": "Efek metalik mengkilap yang bikin desain makin standout." },
+      "glitter": { "name": "Sablon Gliter", "desc": "Kilau gliter untuk tampilan yang berkilau dan playful." },
+      "flocking": { "name": "Flocking (Tekstur 3D)", "desc": "Tekstur beludru lembut dengan dimensi 3D." },
+      "embroidery": { "name": "Bordir", "desc": "Bordir presisi untuk logo, nama, dan detail premium." },
+      "konveksi": { "name": "Konveksi Custom", "desc": "Produksi kaos dari nol dengan konveksi kami sendiri — lebih terkontrol." }
+    }
+  },
+  "aycp": {
+    "kicker": "Program Unggulan",
+    "title": "All You Can Print",
+    "subtitle": "Jadi desainer kaosmu sendiri. Pilih ratusan sticker sablon sepuasnya, susun sesukamu, langsung sablon, dan bisa langsung dipakai.",
+    "steps": {
+      "pick": { "title": "Pilih Stickernya", "desc": "Jelajahi ratusan desain sticker sablon yang unik, bebas pilih sebanyak yang kamu mau." },
+      "arrange": { "title": "Kreasikan Sesukamu", "desc": "Susun dan tunjukkan skill kreativitasmu — ini momen kamu jadi desainer kaos sendiri." },
+      "print": { "title": "Langsung Sablon", "desc": "Rasain serunya sablon sendiri. Prosesnya sat-set, langsung jadi, bisa langsung dipakai." }
+    },
+    "cta": "Coba AYCP di Store"
+  },
+  "why": {
+    "kicker": "Kenapa BikinBadjoe",
+    "title": "Bebas berekspresi tanpa batas",
+    "items": {
+      "noMin": { "title": "Tanpa Minimum Order", "desc": "Mau 1 pcs atau 200 pcs, semua kami layani." },
+      "freeDesign": { "title": "Gratis Jasa Desain", "desc": "Bawa idenya, tim desain kami yang bantu wujudkan." },
+      "inhouse": { "title": "Konveksi Sendiri", "desc": "Semua produk dibuat langsung — lebih terkontrol & berkualitas." },
+      "fast": { "title": "Proses Cepat", "desc": "Produksi kilat, banyak pesanan bisa ditunggu." },
+      "colors": { "title": "150+ Pilihan Warna", "desc": "Sejak 2019, ratusan warna siap jadi teman aktivitasmu." },
+      "material": { "title": "Bahan Berkualitas", "desc": "Cotton Combed 30s yang adem, nyaman, dan rapi jahitannya." }
+    }
+  },
+  "products": {
+    "kicker": "Katalog",
+    "title": "Pilih basic-mu",
+    "subtitle": "Semua dibuat dari bahan berkualitas dengan potongan yang pas dan jahitan rapi.",
+    "items": {
+      "polos": { "name": "Kaos Polos", "desc": "Bahan adem, potongan pas badan, jahitan rapi. Cocok untuk daily & sablon." },
+      "basic": { "name": "Badjoe Basic", "desc": "Basic tapi tetap classic — nyaman dipakai seharian." },
+      "family": { "name": "Family Series", "desc": "Tampil kompak sekeluarga dengan desain simpel yang harmonis." },
+      "kids": { "name": "Kids Series", "desc": "Untuk anak yang aktif & ceria, bahan lembut di kulit." },
+      "oneset": { "name": "One Set", "desc": "Atasan & bawahan serasi — solusi anti ribet biar tampil standout." },
+      "raglan": { "name": "Raglan Oslo", "desc": "Desain klasik dengan potongan reglan yang nyaman & stylish." }
+    }
+  },
+  "gallery": {
+    "kicker": "Hasil Karya",
+    "title": "Behind the stage, we make magic",
+    "subtitle": "Sebagian hasil sablon & produksi dari workshop kami."
+  },
+  "testimonials": {
+    "kicker": "Kata Mereka",
+    "title": "Pelanggan yang happy",
+    "items": {
+      "t1": { "quote": "Keren banget bikinbadjoe, lengkap banget pilihan bajunya, bisa print dengan design sendiri atau pilih sticker di sana langsung disablonin.", "author": "Pelanggan Google" },
+      "t2": { "quote": "Tempatnya luas dan adem, staffnya banyak, pelayanannya relatif cepat, pilihan warna baju dan sablonannya banyak gemes-gemes.", "author": "Pelanggan Google" },
+      "t3": { "quote": "Nggak nunggu lama, prosesnya cepat. Thank you bikinbadjoe, next bakal order baju dengan design sendiri.", "author": "Pelanggan Google" },
+      "t4": { "quote": "Selain kainnya nyaman, kualitas sablonnya juga OK. Untuk harga segini, worth to buy banget.", "author": "Pelanggan Google" }
+    }
+  },
+  "locations": {
+    "kicker": "Kunjungi Kami",
+    "title": "Dua store di Bandung Raya",
+    "subtitle": "Datang langsung, konsultasi gratis, dan lihat sendiri prosesnya."
+  },
+  "cta": {
+    "title": "Siap bikin badjoe-mu?",
+    "subtitle": "Bawa idenya, kami yang eksekusi. Tanpa minimum order, gratis jasa desain.",
+    "button": "Chat WhatsApp Sekarang"
+  },
+  "footer": {
+    "tagline": "Sablon Culture Lab. Custom kaos & sablon satuan sejak 2017.",
+    "explore": "Jelajahi",
+    "services": "Layanan",
+    "legal": "Legal",
+    "follow": "Ikuti Kami",
+    "rights": "Seluruh hak cipta dilindungi.",
+    "madeWith": "Dibuat dengan bangga di Bandung."
+  },
+  "about": {
+    "kicker": "Tentang Kami",
+    "title": "Culture lab-nya sablon custom",
+    "intro": "Sejak awal berdiri pada tahun 2017, BikinBadjoe hadir untuk memberikan solusi kebutuhan pakaian berkualitas dengan harga bersaing. Berawal dari usaha kecil di Bandung, kini kami berkembang menjadi konveksi yang dipercaya oleh berbagai pelanggan dari beragam sektor.",
+    "story": "Pada 2019 kami mulai produksi konveksi sendiri, sehingga setiap produk dibuat langsung, lebih terkontrol, dan berkualitas. Kami percaya setiap orang berhak bebas berekspresi lewat pakaian yang mereka rancang sendiri.",
+    "milestones": {
+      "m2017": { "year": "2017", "label": "Mulai merintis di bidang konveksi & sablon custom." },
+      "m2019": { "year": "2019", "label": "Membangun konveksi sendiri dengan 150+ pilihan warna." },
+      "mNow": { "year": "Kini", "label": "Dua store di Bandung & Cimahi dengan 116K+ pengikut." }
+    },
+    "valuesTitle": "Nilai kami",
+    "values": {
+      "express": { "title": "Kebebasan Berekspresi", "desc": "Tanpa minimum order — semua orang bisa mewujudkan idenya." },
+      "quality": { "title": "Kualitas Terkontrol", "desc": "Produksi in-house dari bahan Cotton Combed 30s." },
+      "community": { "title": "Berbagi ke Sesama", "desc": "Program sedekah rutin — sebagian dari setiap transaksi kami kembalikan ke masyarakat." }
+    },
+    "profileTitle": "Profil Perusahaan",
+    "profile": {
+      "name": "Nama Perusahaan",
+      "nameValue": "CV. Bikin Badjoe Workshop",
+      "field": "Bidang Usaha",
+      "fieldValue": "Produksi & Penjualan Pakaian (Konveksi)",
+      "founded": "Tahun Berdiri",
+      "foundedValue": "2017 (merintis) · 2019 (produksi konveksi)",
+      "products": "Produk",
+      "productsValue": "Kaos oblong, polo shirt, hoodie, oversize, one set, dan pakaian custom",
+      "services": "Layanan Custom",
+      "servicesValue": "Sablon manual, digital printing, dan bordir"
+    }
+  },
+  "contact": {
+    "kicker": "Kontak",
+    "title": "Ngobrol yuk soal orderanmu",
+    "subtitle": "Tim kami siap bantu dari konsultasi desain sampai produksi.",
+    "whatsappTitle": "WhatsApp",
+    "hoursTitle": "Jam Buka",
+    "hoursValue": "Setiap hari, 08.00–21.00",
+    "socialTitle": "Media Sosial",
+    "storesTitle": "Store Kami",
+    "formNote": "Cara tercepat: langsung chat WhatsApp kami dengan detail orderanmu (jenis sablon, jumlah, dan desain jika ada)."
+  },
+  "legal": {
+    "lastUpdated": "Terakhir diperbarui",
+    "date": "21 Juli 2026",
+    "privacy": {
+      "title": "Kebijakan Privasi",
+      "intro": "CV. Bikin Badjoe Workshop menghormati privasi Anda. Halaman ini menjelaskan data yang kami kumpulkan dan cara penggunaannya.",
+      "sections": {
+        "collect": { "title": "Data yang Kami Kumpulkan", "body": "Kami mengumpulkan data yang Anda berikan saat memesan, seperti nama, nomor kontak, alamat pengiriman, dan detail desain. Kami juga dapat mengumpulkan data penggunaan situs secara anonim untuk meningkatkan layanan." },
+        "use": { "title": "Penggunaan Data", "body": "Data digunakan untuk memproses pesanan, berkomunikasi terkait orderan, dan meningkatkan layanan kami. Kami tidak menjual data pribadi Anda kepada pihak ketiga." },
+        "share": { "title": "Berbagi Data", "body": "Data hanya dibagikan kepada mitra logistik dan pembayaran sejauh diperlukan untuk menyelesaikan pesanan Anda." },
+        "rights": { "title": "Hak Anda", "body": "Anda dapat meminta akses, koreksi, atau penghapusan data pribadi Anda dengan menghubungi kami melalui WhatsApp resmi." }
+      }
+    },
+    "terms": {
+      "title": "Syarat & Ketentuan",
+      "intro": "Dengan memesan di BikinBadjoe, Anda menyetujui syarat & ketentuan berikut.",
+      "sections": {
+        "orders": { "title": "Pemesanan", "body": "Pesanan dianggap sah setelah konfirmasi dan pembayaran (atau uang muka) diterima. Detail desain, ukuran, dan jumlah menjadi tanggung jawab pemesan untuk diperiksa sebelum produksi." },
+        "design": { "title": "Desain & Hak Cipta", "body": "Pemesan bertanggung jawab memastikan desain tidak melanggar hak cipta pihak lain. Jasa desain gratis kami mengikuti brief yang Anda berikan." },
+        "production": { "title": "Produksi & Waktu", "body": "Estimasi waktu produksi diinformasikan saat pemesanan dan dapat berubah tergantung kompleksitas dan antrean." },
+        "payment": { "title": "Pembayaran", "body": "Metode dan termin pembayaran diinformasikan saat pemesanan melalui WhatsApp resmi kami." }
+      }
+    },
+    "shipping": {
+      "title": "Pengiriman & Pengembalian",
+      "intro": "Ketentuan pengiriman, produksi, dan pengembalian pesanan.",
+      "sections": {
+        "pickup": { "title": "Ambil di Store", "body": "Pesanan dapat diambil langsung di store kami di Bandung atau Cimahi pada jam buka 08.00–21.00." },
+        "delivery": { "title": "Pengiriman", "body": "Pengiriman ke luar kota tersedia melalui mitra logistik. Biaya dan estimasi waktu diinformasikan saat pemesanan." },
+        "returns": { "title": "Pengembalian", "body": "Karena bersifat custom, produk yang sudah disablon sesuai pesanan tidak dapat dikembalikan kecuali terdapat cacat produksi dari pihak kami." },
+        "defects": { "title": "Cacat Produksi", "body": "Jika ada cacat produksi, laporkan dalam 2x24 jam sejak pesanan diterima beserta bukti foto untuk kami tindak lanjuti." }
+      }
+    }
+  },
+  "notFound": {
+    "title": "Halaman tidak ditemukan",
+    "subtitle": "Sepertinya halaman yang kamu cari sudah pindah atau tidak ada.",
+    "cta": "Kembali ke Beranda"
+  }
+}

@@ -1,0 +1,40 @@
+// Base typography.
+body {
+  font-family: $font-body;
+  font-size: $fs-body;
+  font-weight: $fw-regular;
+  color: $text-base;
+  background: $bg-body;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-heading;
+  font-weight: $fw-extra;
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+  color: $text-base;
+}
+
+p {
+  color: $text-muted;
+}
+
+strong,
+b {
+  font-weight: $fw-bold;
+  color: $text-base;
+}
+
+a {
+  transition: color $transition-base;
+}
+
+::selection {
+  background: $color-primary;
+  color: $color-white;
+}

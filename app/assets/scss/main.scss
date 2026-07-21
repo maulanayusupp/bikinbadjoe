@@ -1,0 +1,9 @@
+// =============================================================================
+// Global stylesheet entry. Registered in nuxt.config `css`.
+// Design tokens (abstracts) are auto-injected into every file via
+// vite additionalData, so we only pull in css-emitting layers here.
+// =============================================================================
+@use 'base/reset';
+@use 'base/typography';
+@use 'base/base';
+@use 'base/animations';

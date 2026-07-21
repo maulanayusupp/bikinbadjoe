@@ -1,0 +1,5 @@
+// Barrel forwarded into every component via nuxt.config additionalData.
+// Only variables/mixins/functions here — MUST NOT emit css.
+@forward 'variables';
+@forward 'functions';
+@forward 'mixins';

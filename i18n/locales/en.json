@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "defaultTitle": "Custom Screen Printing & Apparel Bandung",
+    "defaultDescription": "BikinBadjoe — a Sablon Culture Lab in Bandung. Single-piece custom printing with no minimum order, free design service, and in-house production. Digital, plastisol, puff, glow in the dark & more.",
+    "home": {
+      "title": "Single-Piece Custom Printing, No Minimum Order",
+      "description": "Custom tees & single-piece screen printing in Bandung with no minimum order, free design service, done on the spot. 150+ tee colors, in-house production since 2019."
+    },
+    "services": {
+      "title": "Printing & Apparel Services",
+      "description": "Digital (DTF), plastisol, puff, glow in the dark, reflective rainbow, foil, glitter, flocking, embroidery, and custom apparel — all available per piece."
+    },
+    "products": {
+      "title": "Products & Catalogue",
+      "description": "Blank tees in 150+ colors, Family Series, Kids Series, One Set, Raglan Oslo, and Badjoe Basic — all in Cotton Combed 30s."
+    },
+    "about": {
+      "title": "About Us",
+      "description": "CV. Bikin Badjoe Workshop — experienced since 2017 in apparel manufacturing and custom printing, with our own facility in Bandung."
+    },
+    "contact": {
+      "title": "Contact & Locations",
+      "description": "Visit BikinBadjoe in Bandung & Cimahi, or order directly via WhatsApp. Open every day 08.00–21.00."
+    },
+    "privacy": { "title": "Privacy Policy", "description": "Privacy policy of CV. Bikin Badjoe Workshop." },
+    "terms": { "title": "Terms & Conditions", "description": "Terms & conditions of CV. Bikin Badjoe Workshop." },
+    "shipping": { "title": "Shipping & Returns", "description": "Shipping, production, and returns policy for BikinBadjoe orders." }
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "products": "Products",
+    "about": "About",
+    "contact": "Contact",
+    "order": "Order Now"
+  },
+  "common": {
+    "orderWhatsapp": "Order via WhatsApp",
+    "consult": "Free Consultation",
+    "viewAll": "View All",
+    "learnMore": "Learn More",
+    "getDirections": "Get Directions",
+    "since": "Since",
+    "openEveryday": "Open every day",
+    "readMore": "Read more",
+    "backHome": "Back to Home"
+  },
+  "marquee": [
+    "Single-Piece Printing",
+    "No Minimum Order",
+    "Free Design Service",
+    "In-House Production",
+    "Fast, Wait-While-You-Shop",
+    "150+ Tee Colors"
+  ],
+  "hero": {
+    "kicker": "Sablon Culture Lab · Bandung",
+    "titleLine1": "Make",
+    "titleLine2": "Your Tee",
+    "titleAccent": "Your Way",
+    "subtitle": "Custom single-piece printing with no minimum order and no hassle. Just bring the idea — we make the magic.",
+    "ctaPrimary": "Order via WhatsApp",
+    "ctaSecondary": "See Services",
+    "badge1": "No Min. Order",
+    "badge2": "Free Design",
+    "badge3": "Done On The Spot"
+  },
+  "stats": {
+    "followers": { "value": "116K+", "label": "Instagram Followers" },
+    "colors": { "value": "150+", "label": "Tee Color Options" },
+    "since": { "value": "2017", "label": "Experienced Since" },
+    "everyday": { "value": "08–21", "label": "Open Every Day" }
+  },
+  "services": {
+    "kicker": "What we can print",
+    "title": "Every kind of print, per piece",
+    "subtitle": "From everyday prints to special effects — all available as single pieces with no minimum order.",
+    "items": {
+      "digital": { "name": "Digital Print (DTF)", "desc": "Sharp raster detail and full color, great for complex designs. Available per piece." },
+      "plastisol": { "name": "Plastisol Print", "desc": "Hand screen printing with a solid, thick, and long-lasting finish." },
+      "puff": { "name": "Puff / Raised Print", "desc": "Raised 3D texture you can feel to the touch." },
+      "glow": { "name": "Glow in the Dark", "desc": "Glows in the dark — designs that come alive at night." },
+      "reflective": { "name": "Reflective Rainbow", "desc": "Reflects light into a rainbow spectrum when hit by a beam." },
+      "foil": { "name": "Foil / Aqua Glossy", "desc": "A glossy metallic effect that makes designs stand out." },
+      "glitter": { "name": "Glitter Print", "desc": "Glitter shimmer for a sparkly, playful look." },
+      "flocking": { "name": "Flocking (3D Texture)", "desc": "Soft velvet texture with a 3D dimension." },
+      "embroidery": { "name": "Embroidery", "desc": "Precise embroidery for logos, names, and premium detail." },
+      "konveksi": { "name": "Custom Apparel", "desc": "Tees produced from scratch in our own facility — fully controlled." }
+    }
+  },
+  "aycp": {
+    "kicker": "Signature Program",
+    "title": "All You Can Print",
+    "subtitle": "Be your own tee designer. Pick from hundreds of print stickers as much as you like, arrange them your way, print on the spot, and wear it right away.",
+    "steps": {
+      "pick": { "title": "Pick Your Stickers", "desc": "Explore hundreds of unique print sticker designs and pick as many as you want." },
+      "arrange": { "title": "Design It Your Way", "desc": "Arrange and show off your creativity — this is your moment to be a tee designer." },
+      "print": { "title": "Print On The Spot", "desc": "Feel the fun of printing it yourself. It's quick, done instantly, ready to wear." }
+    },
+    "cta": "Try AYCP In-Store"
+  },
+  "why": {
+    "kicker": "Why BikinBadjoe",
+    "title": "Express yourself without limits",
+    "items": {
+      "noMin": { "title": "No Minimum Order", "desc": "Whether 1 pc or 200 pcs, we've got you covered." },
+      "freeDesign": { "title": "Free Design Service", "desc": "Bring the idea — our design team helps bring it to life." },
+      "inhouse": { "title": "In-House Production", "desc": "Everything made directly by us — more control & quality." },
+      "fast": { "title": "Fast Turnaround", "desc": "Speedy production; many orders can be done while you wait." },
+      "colors": { "title": "150+ Color Options", "desc": "Since 2019, hundreds of colors ready for your daily activities." },
+      "material": { "title": "Quality Material", "desc": "Cool, comfy Cotton Combed 30s with neat stitching." }
+    }
+  },
+  "products": {
+    "kicker": "Catalogue",
+    "title": "Pick your basic",
+    "subtitle": "All made from quality material with a proper fit and neat stitching.",
+    "items": {
+      "polos": { "name": "Blank Tees", "desc": "Cool fabric, proper fit, neat stitching. Perfect for daily wear & printing." },
+      "basic": { "name": "Badjoe Basic", "desc": "Basic but classic — comfortable to wear all day." },
+      "family": { "name": "Family Series", "desc": "Match as a family with simple, harmonious designs." },
+      "kids": { "name": "Kids Series", "desc": "For active, cheerful kids, with skin-soft fabric." },
+      "oneset": { "name": "One Set", "desc": "Coordinated top & bottom — a hassle-free way to stand out." },
+      "raglan": { "name": "Raglan Oslo", "desc": "A classic design with a comfy, stylish raglan cut." }
+    }
+  },
+  "gallery": {
+    "kicker": "Our Work",
+    "title": "Behind the stage, we make magic",
+    "subtitle": "A selection of prints & production from our workshop."
+  },
+  "testimonials": {
+    "kicker": "What They Say",
+    "title": "Happy customers",
+    "items": {
+      "t1": { "quote": "BikinBadjoe is awesome, so many clothing options — you can print your own design or pick a sticker and get it printed right there.", "author": "Google Customer" },
+      "t2": { "quote": "The place is spacious and cool, plenty of staff, service is fairly fast, and the color and print options are adorable.", "author": "Google Customer" },
+      "t3": { "quote": "No long wait, the process is quick. Thank you BikinBadjoe, next time I'll order with my own design.", "author": "Google Customer" },
+      "t4": { "quote": "The fabric is comfy and the print quality is great too. For this price, totally worth buying.", "author": "Google Customer" }
+    }
+  },
+  "locations": {
+    "kicker": "Visit Us",
+    "title": "Two stores in Greater Bandung",
+    "subtitle": "Come by, get a free consultation, and see the process for yourself."
+  },
+  "cta": {
+    "title": "Ready to make your tee?",
+    "subtitle": "Bring the idea, we'll execute it. No minimum order, free design service.",
+    "button": "Chat WhatsApp Now"
+  },
+  "footer": {
+    "tagline": "Sablon Culture Lab. Custom tees & single-piece printing since 2017.",
+    "explore": "Explore",
+    "services": "Services",
+    "legal": "Legal",
+    "follow": "Follow Us",
+    "rights": "All rights reserved.",
+    "madeWith": "Proudly made in Bandung."
+  },
+  "about": {
+    "kicker": "About Us",
+    "title": "The culture lab of custom printing",
+    "intro": "Since our founding in 2017, BikinBadjoe has existed to deliver quality apparel solutions at competitive prices. Starting as a small business in Bandung, we have grown into a manufacturer trusted by customers across many sectors.",
+    "story": "In 2019 we started our own in-house production, so every product is made directly, more controlled, and higher quality. We believe everyone deserves the freedom to express themselves through clothing they design themselves.",
+    "milestones": {
+      "m2017": { "year": "2017", "label": "Started out in apparel manufacturing & custom printing." },
+      "m2019": { "year": "2019", "label": "Built our own facility with 150+ color options." },
+      "mNow": { "year": "Now", "label": "Two stores in Bandung & Cimahi with 116K+ followers." }
+    },
+    "valuesTitle": "Our values",
+    "values": {
+      "express": { "title": "Freedom to Express", "desc": "No minimum order — everyone can bring their idea to life." },
+      "quality": { "title": "Controlled Quality", "desc": "In-house production using Cotton Combed 30s." },
+      "community": { "title": "Giving Back", "desc": "A recurring charity program — part of every transaction goes back to the community." }
+    },
+    "profileTitle": "Company Profile",
+    "profile": {
+      "name": "Company Name",
+      "nameValue": "CV. Bikin Badjoe Workshop",
+      "field": "Line of Business",
+      "fieldValue": "Apparel Production & Sales (Manufacturing)",
+      "founded": "Year Founded",
+      "foundedValue": "2017 (started) · 2019 (in-house production)",
+      "products": "Products",
+      "productsValue": "T-shirts, polo shirts, hoodies, oversize, one set, and custom apparel",
+      "services": "Custom Services",
+      "servicesValue": "Manual printing, digital printing, and embroidery"
+    }
+  },
+  "contact": {
+    "kicker": "Contact",
+    "title": "Let's talk about your order",
+    "subtitle": "Our team is ready to help from design consultation to production.",
+    "whatsappTitle": "WhatsApp",
+    "hoursTitle": "Opening Hours",
+    "hoursValue": "Every day, 08.00–21.00",
+    "socialTitle": "Social Media",
+    "storesTitle": "Our Stores",
+    "formNote": "Fastest way: chat us on WhatsApp with your order details (print type, quantity, and design if any)."
+  },
+  "legal": {
+    "lastUpdated": "Last updated",
+    "date": "21 July 2026",
+    "privacy": {
+      "title": "Privacy Policy",
+      "intro": "CV. Bikin Badjoe Workshop respects your privacy. This page explains the data we collect and how we use it.",
+      "sections": {
+        "collect": { "title": "Data We Collect", "body": "We collect data you provide when ordering, such as name, contact number, delivery address, and design details. We may also collect anonymous site usage data to improve our service." },
+        "use": { "title": "How We Use Data", "body": "Data is used to process orders, communicate about them, and improve our service. We do not sell your personal data to third parties." },
+        "share": { "title": "Data Sharing", "body": "Data is shared only with logistics and payment partners as far as needed to complete your order." },
+        "rights": { "title": "Your Rights", "body": "You may request access, correction, or deletion of your personal data by contacting us via our official WhatsApp." }
+      }
+    },
+    "terms": {
+      "title": "Terms & Conditions",
+      "intro": "By ordering at BikinBadjoe, you agree to the following terms & conditions.",
+      "sections": {
+        "orders": { "title": "Orders", "body": "An order is valid once confirmation and payment (or a deposit) are received. Design details, sizes, and quantities are the customer's responsibility to verify before production." },
+        "design": { "title": "Design & Copyright", "body": "Customers are responsible for ensuring designs do not infringe others' copyright. Our free design service follows the brief you provide." },
+        "production": { "title": "Production & Timing", "body": "Estimated production time is communicated at ordering and may vary depending on complexity and queue." },
+        "payment": { "title": "Payment", "body": "Payment methods and terms are communicated at ordering via our official WhatsApp." }
+      }
+    },
+    "shipping": {
+      "title": "Shipping & Returns",
+      "intro": "Terms for shipping, production, and returns of orders.",
+      "sections": {
+        "pickup": { "title": "Store Pickup", "body": "Orders can be picked up directly at our stores in Bandung or Cimahi during opening hours 08.00–21.00." },
+        "delivery": { "title": "Delivery", "body": "Out-of-town delivery is available via logistics partners. Cost and estimated time are communicated at ordering." },
+        "returns": { "title": "Returns", "body": "As items are custom, printed products made to order cannot be returned unless there is a production defect on our part." },
+        "defects": { "title": "Production Defects", "body": "If there is a production defect, report it within 2x24 hours of receiving the order with photo evidence so we can follow up." }
+      }
+    }
+  },
+  "notFound": {
+    "title": "Page not found",
+    "subtitle": "Looks like the page you're looking for has moved or doesn't exist.",
+    "cta": "Back to Home"
+  }
+}
