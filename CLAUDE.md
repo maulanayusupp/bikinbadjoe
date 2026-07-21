@@ -73,6 +73,7 @@ app/
   utils/                  # whatsapp.ts, icons.ts
   plugins/reveal.ts       # v-reveal scroll-reveal directive
   pages/                  # index, services, products, about, contact, privacy, terms, shipping
+server/api/               # contact.post.ts (form endpoint; deliverMessage = inbox hook)
 i18n/locales/             # id.json (default), en.json
 public/                   # favicons, og-image, images/ (brand, gallery, process)
 ```

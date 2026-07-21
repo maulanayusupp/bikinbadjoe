@@ -38,6 +38,8 @@ usePageSeo({ key: 'contact', path: '/contact' })
           </div>
 
           <p class="contact__note" v-reveal="200">{{ t('contact.formNote') }}</p>
+
+          <ContactForm v-reveal="240" />
         </div>
 
         <aside class="contact__stores" v-reveal="120">

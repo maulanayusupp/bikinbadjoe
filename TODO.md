@@ -14,9 +14,11 @@ Legend: `[ ]` todo · `[~]` in progress · `[x]` done
 
 ## Near-term
 
-- [ ] Add `@nuxtjs/sitemap` for auto sitemap.xml + robots integration
-- [ ] Contact form (Nuxt server route) as an alternative to WhatsApp-only, with
-      spam protection; wire into a real inbox/CRM
+- [x] Add `@nuxtjs/sitemap` for auto sitemap.xml (i18n-aware sitemap index)
+- [x] Contact form (Nuxt server route `/api/contact`) as an alternative to
+      WhatsApp-only, with honeypot spam protection + WhatsApp fallback
+- [ ] Wire `deliverMessage()` in `server/api/contact.post.ts` to a real inbox
+      (email via Resend/SMTP, Telegram bot, or CRM webhook)
 - [ ] Real image optimization pass: replace remaining stock/placeholder-ish
       images with more official BikinBadjoe photos; add proper alt text per image
 - [ ] Add a lightweight gallery lightbox (click to enlarge)

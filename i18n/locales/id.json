@@ -197,7 +197,25 @@
     "hoursValue": "Setiap hari, 08.00–21.00",
     "socialTitle": "Media Sosial",
     "storesTitle": "Store Kami",
-    "formNote": "Cara tercepat: langsung chat WhatsApp kami dengan detail orderanmu (jenis sablon, jumlah, dan desain jika ada)."
+    "formNote": "Cara tercepat: langsung chat WhatsApp kami dengan detail orderanmu (jenis sablon, jumlah, dan desain jika ada).",
+    "form": {
+      "title": "Atau kirim pesan di sini",
+      "name": "Nama",
+      "namePlaceholder": "Nama kamu",
+      "contact": "WhatsApp / Email",
+      "contactPlaceholder": "08xx atau email kamu",
+      "subject": "Perihal",
+      "subjectPlaceholder": "Mis. sablon satuan, konveksi 50pcs",
+      "message": "Pesan",
+      "messagePlaceholder": "Ceritakan kebutuhan orderanmu...",
+      "submit": "Kirim Pesan",
+      "sending": "Mengirim...",
+      "successTitle": "Pesan terkirim!",
+      "successBody": "Terima kasih. Tim kami akan menghubungimu secepatnya.",
+      "sendAnother": "Kirim pesan lain",
+      "errorRequired": "Mohon lengkapi kolom yang wajib diisi.",
+      "errorGeneric": "Gagal mengirim. Coba lagi atau chat kami via WhatsApp."
+    }
   },
   "legal": {
     "lastUpdated": "Terakhir diperbarui",

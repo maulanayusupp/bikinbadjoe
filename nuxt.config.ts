@@ -5,7 +5,18 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
 
-  modules: ['@nuxtjs/i18n', '@nuxt/image', '@vueuse/nuxt'],
+  modules: ['@nuxtjs/i18n', '@nuxt/image', '@vueuse/nuxt', '@nuxtjs/sitemap'],
+
+  // Canonical site URL (used by sitemap + nuxt-site-config).
+  site: {
+    url: BUSINESS.siteUrl,
+    name: BUSINESS.brandName,
+  },
+
+  sitemap: {
+    // i18n integration adds locale alternates automatically.
+    xsl: false,
+  },
 
   // Resolve components by filename (BaseButton, HeroSection) regardless of the
   // subfolder they live in, so nested organization doesn't leak into names.
