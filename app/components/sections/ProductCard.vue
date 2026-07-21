@@ -152,9 +152,18 @@ onBeforeUnmount(() => clearTimeout(timer))
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     gap: $space-3;
     margin-top: auto; // pin price + button to the bottom on every card
     padding-top: $space-3;
+
+    // On narrow cards (2-up on phones) stack price above a full-width button so
+    // the nowrap CTA never forces the card wider than its grid track.
+    @include down(sm) {
+      flex-direction: column;
+      align-items: stretch;
+      gap: $space-2;
+    }
   }
 
   &__price {
@@ -179,6 +188,7 @@ onBeforeUnmount(() => clearTimeout(timer))
   &__btn {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: $space-1;
     padding: 0.6rem 0.9rem;
     border-radius: $radius-pill;

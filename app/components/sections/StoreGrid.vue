@@ -92,15 +92,17 @@ const filtered = computed(() =>
 
   &__grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    // minmax(0, 1fr) lets tracks shrink below their content's min-content width,
+    // preventing horizontal overflow from wide card content on small screens.
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: $space-4;
     list-style: none;
 
     @include up(md) {
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(3, minmax(0, 1fr));
     }
     @include up(xl) {
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(4, minmax(0, 1fr));
     }
   }
 }
