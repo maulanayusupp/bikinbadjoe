@@ -16,10 +16,14 @@ interface PageSeoOptions {
  * Every page calls this once.
  */
 export function usePageSeo(options: PageSeoOptions = {}) {
-  const { t } = useI18n()
+  const { t, locale } = useI18n()
   const localeHead = useLocaleHead({ addSeoAttributes: true })
   const config = useRuntimeConfig()
   const siteUrl = (config.public.siteUrl as string) || BUSINESS.siteUrl
+  // Resolve the actual serving origin (SSR request host or window). og:image
+  // must be an absolute, reachable URL for WhatsApp/Instagram to render it, so
+  // we derive it from where the page is actually served, not a hardcoded domain.
+  const origin = useRequestURL().origin || siteUrl
 
   const resolve = (field: 'title' | 'description') => {
     if (field === 'title' && options.title) return options.title
@@ -30,7 +34,7 @@ export function usePageSeo(options: PageSeoOptions = {}) {
 
   const title = resolve('title')
   const description = resolve('description')
-  const image = options.image || `${siteUrl}/og-image.png`
+  const image = options.image || `${origin}/og-image.png`
   const url = `${siteUrl}${options.path ?? ''}`
 
   useHead(() => ({
@@ -39,18 +43,32 @@ export function usePageSeo(options: PageSeoOptions = {}) {
     meta: [...(localeHead.value.meta || [])],
   }))
 
+  const ogTitle = `${title} · ${BUSINESS.brandName}`
+  const ogLocale = locale.value === 'en' ? 'en_US' : 'id_ID'
+  const ogLocaleAlt = locale.value === 'en' ? 'id_ID' : 'en_US'
+
   useSeoMeta({
     title,
     description,
-    ogTitle: `${title} · ${BUSINESS.brandName}`,
+    ogTitle,
     ogDescription: description,
     ogType: 'website',
     ogUrl: url,
-    ogImage: image,
     ogSiteName: BUSINESS.brandName,
+    ogLocale,
+    ogLocaleAlternate: ogLocaleAlt,
+    // Explicit image metadata — WhatsApp & Instagram need an absolute URL plus
+    // dimensions/type to render a rich link preview reliably.
+    ogImage: image,
+    ogImageSecureUrl: image,
+    ogImageType: 'image/png',
+    ogImageWidth: 1200,
+    ogImageHeight: 630,
+    ogImageAlt: ogTitle,
     twitterCard: 'summary_large_image',
-    twitterTitle: title,
+    twitterTitle: ogTitle,
     twitterDescription: description,
     twitterImage: image,
+    twitterImageAlt: ogTitle,
   })
 }

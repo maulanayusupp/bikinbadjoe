@@ -55,6 +55,7 @@ onBeforeUnmount(() => clearTimeout(timer))
 .pcard {
   display: flex;
   flex-direction: column;
+  height: 100%; // fill the stretched grid cell so all cards are equal height
   border-radius: $radius-lg;
   overflow: hidden;
   background: $color-ink;
@@ -76,7 +77,9 @@ onBeforeUnmount(() => clearTimeout(timer))
     position: relative;
     aspect-ratio: 4 / 5;
     overflow: hidden;
-    background: $color-ink-700;
+    // Neutral light backdrop so white studio shots and lifestyle photos read
+    // consistently across the grid.
+    background: $color-cream;
   }
 
   &__badge {
@@ -124,12 +127,25 @@ onBeforeUnmount(() => clearTimeout(timer))
     font-size: $fs-h3;
     font-weight: $fw-bold;
     line-height: 1.2;
+    // Reserve a fixed 2-line height so 1- and 2-line titles align across cards.
+    min-height: 2.4em;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 
   &__desc {
     font-size: $fs-sm;
     color: $text-muted;
-    flex: 1;
+    // Clamp to 2 lines for uniform card body height.
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 2.6em;
   }
 
   &__foot {
@@ -137,7 +153,8 @@ onBeforeUnmount(() => clearTimeout(timer))
     align-items: center;
     justify-content: space-between;
     gap: $space-3;
-    margin-top: $space-3;
+    margin-top: auto; // pin price + button to the bottom on every card
+    padding-top: $space-3;
   }
 
   &__price {
